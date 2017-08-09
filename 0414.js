@@ -3,7 +3,7 @@ ReactDOM.render(<h1>Hello</h1>,
 document.getElementById('root'));
 //OR
 //只能回傳一個DOM
-//class命名規則為雙頭蜂
+//class命名規則為雙駝峰
 var App = React.createClass({
   render: function(){
     return (<div>
